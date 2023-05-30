@@ -1,0 +1,68 @@
+.addbook-container{
+    width: 100vw;
+    height: calc(100vh - 100px);
+    display: grid;
+    place-items: center;
+}
+
+form{
+    width: 300px;
+    background: tomato;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+form div{
+    margin-top: 15px;
+}
+form label {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+form input {
+    width: 100%;
+    padding: 0.4rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+form button{
+    background-color: black;
+    padding: .7rem 1rem;
+    font-family: 14px;
+    text-transform: uppercase;
+    color:tomato;
+    font-weight: 700;
+    cursor: pointer;
+    margin: 2rem auto 0;
+    display: block;
+    border-radius: 5px;
+}
+
+.table-container{
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.table-container span{
+    background: rgba(0, 0, 0, 0.1);
+    padding: .4rem;
+    border-radius: 5px;
+    margin-right: 4px;
+}
+.table-container img{
+    width: 20px;
+    cursor: pointer;
+}
+
+.title {
+    color: tomato;
+    font-size: 40px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
