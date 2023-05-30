@@ -1,9 +1,9 @@
 import { RouterProvider, createBrowserRouter } from "react-router-dom"
-import Home from "./components/Home"
 import AddBook from "./pages/AddBook"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import MainLayout from "./layout/MainLayout"
 import ShowBooks from "./pages/ShowBooks"
+import EditBook from "./pages/EditBook"
 function App() {
   const router = createBrowserRouter([
     {
@@ -12,15 +12,15 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Home />
-        },
-        {
-          path: "/addbook",
           element: <AddBook />
         },
         {
           path:"/showbook",
           element: <ShowBooks/>
+        },
+        {
+          path:'/edit',
+          element: <EditBook/>
         }
       ]
     }

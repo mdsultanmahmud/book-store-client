@@ -5,10 +5,7 @@ const Navbar = () => {
         <nav className="p-4 navbar">
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
-                </li>
-                <li>
-                    <Link to="/addbook">Add book</Link>
+                    <Link to="/">Add book</Link>
                 </li>
                 <li>
                     <Link to="/showbook">Show Book</Link>
